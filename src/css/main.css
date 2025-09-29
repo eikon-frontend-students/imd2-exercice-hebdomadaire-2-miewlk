@@ -6,9 +6,60 @@
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
 video {
   display: block;
+}
+
+body {
+  background: #e9e9e9;
+}
+
+header {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+}
+
+.nav-burger {
+  width: 30px;
+  height: 34.286px;
+}
+
+.nav-menu {
+  list-style-type: none;
+
+  display: flex;
+  padding: 20px 30px;
+  gap: 20px;
+
+  border-radius: 32px;
+  background: #fff;
+}
+
+.nav-tools {
+  display: flex;
+}
+
+.nav-tools a {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 32px;
+  background: #fff;
 }
